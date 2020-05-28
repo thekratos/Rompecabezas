@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="content">
+      <div id="titulo">ROMPECABEZAS</div>
+      <div id="configuracion">
+        <span>Cantidad de Piezas:</span>
+        <select id="piezas">
+          <option value="4">4</option>
+          <option value="9">9</option>
+          <option value="16">16</option>
+          <option value="25">25</option>
+          <option value="36">36</option>
+		  <option value="100">100</option>
+		</select>
+		<input type="button" id="barajar" value="Barajar" />
+        <div>
+          <span>
+			Pulsa en un cuadro y luego en otro para intercambiar sus
+			posiciones!!
+		  </span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
